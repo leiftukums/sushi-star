@@ -6,7 +6,7 @@ const Full_order = () => {
     return (
         <div> 
             <h3>Your catering order:</h3>
-            <p>Total cost: {3.99}</p>
+            <p>Total cost: {orderTotalPrice}</p>
         </div>
     )
 }

@@ -6,13 +6,17 @@ import DisplayCase from './display_case';
 
 function App() {
   return (
-    <div>
-      <h1>Sushi Star</h1>
-      <h2>Your personal sushi caterer...</h2>
-      <p>The full sushi bar experience, brought to you, wherever you are</p>
-      <DisplayCase />
-      <Order_form />
-      <Full_order />
+    <div class='app'>
+        <div class='header'>
+            <h1>Sushi Star</h1>
+            <h2>Your personal sushi caterer...</h2>
+        </div>
+        <div class='options'>
+            <p>The full sushi bar experience, brought to you, wherever you are</p>
+            <DisplayCase />
+        </div>
+        <Order_form />
+        <Full_order />
     </div>
   );
 }
