@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import Full_order from './full_order';
-import Order_form from './order_form';
-import DisplayCase from './display_case';
+import FullOrder from './FullOrder';
+import OrderForm from './OrderForm';
+import DisplayCase from './DisplayCase';
 
 function App() {
   return (
-    <div class='app'>
-        <div class='header'>
+    <div className='app'>
+        <div className='header'>
             <h1>Sushi Star</h1>
             <h2>Your personal sushi caterer...</h2>
         </div>
-        <div class='options'>
+        <div className='options'>
             <p>The full sushi bar experience, brought to you, wherever you are</p>
             <DisplayCase />
         </div>
-        <Order_form />
-        <Full_order />
+        <OrderForm />
+        
     </div>
   );
 }

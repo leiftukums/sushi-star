@@ -4,7 +4,7 @@ import crazy_mexican from './images/crazy-mexican.jpg';
 import veggie_roll from './images/veggie-roll.jpg';
 import chef_hands from './images/sushi-chef-hands.jpg';
 import sashimi from './images/sashimi-trio.jpg';
-
+import OrderForm from './OrderForm';
 
 
 
@@ -12,9 +12,9 @@ const DisplayCase = () => {
     return (
         <div>
             <h2>Choose from our offerings below:</h2>
-            <div class='gallery'>
+            <div className='gallery'>
                 <caption>The Saltwater Slam</caption>
-                <img src={toro_nigiri} alt='tuna belly sushi' height='200px' width='300px' />
+                <img src={toro_nigiri} alt='tuna belly sushi' height='200px' width='200px' />
                 <caption>be a little shellfish</caption>
                 <img src={crazy_mexican} alt='shrimp tempura roll' height='200px' width='200px'/>
                 <caption>Green Paradise</caption>
