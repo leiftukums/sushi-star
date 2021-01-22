@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import FullOrder from './FullOrder';
 import OrderForm from './OrderForm';
 import DisplayCase from './DisplayCase';
+import index from './index.scss'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
             <h2>Your personal sushi caterer...</h2>
         </div>
         <div className='options'>
-            <p>The full sushi bar experience, brought to you, wherever you are</p>
+            <p>The full sushi bar experience, brought to you!</p>
             <DisplayCase />
         </div>
         <OrderForm />
